@@ -1,11 +1,15 @@
-import React, { useState, useEffect } from "react";
-import Table from './Components/Table'
 
+import React from "react";
+import CardWrap from './CardWrap';
 
 function App() {
-  return (
-   <Table/>
+  return(
+    <div>
+
+<CardWrap/>
+    </div>
   );
+  
 }
 
 export default App;
