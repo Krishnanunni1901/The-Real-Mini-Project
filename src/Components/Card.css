@@ -2,6 +2,7 @@
     padding: 20px;
     width: 24%;
     background-color: white;
+    margin: 20px;
 }
 .cardIcon {
     width: 70px;
@@ -9,6 +10,13 @@
     color: green;
     font-size: 30px;
     border-radius: 50%;
+    
+}
+.card-text {
+    padding-left: 10px;
+}
+.card-text h4, .card-text p {
+    margin: 0;
 }
 .blue-card {
     background-color: #eaf1ff;

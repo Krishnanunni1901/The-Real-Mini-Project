@@ -4,9 +4,9 @@ import './Card.css'
 
 function Card(props) {
     return (
-        <div className={`cardStyle d-flex align-items-center ${props.colorVarient}`}>
-                <div className="cardIcon d-flex align-items-center justify-content-center" >{props.icon}</div>
-            <div>
+        <div className="cardStyle d-flex align-items-center">
+                <div className={`cardIcon d-flex align-items-center justify-content-center ${props.colorVarient}-card`} >{props.icon}</div>
+            <div className="card-text">
                 <h4>{props.ticketNo}</h4>
                 <p>{props.cardType}</p>
             </div>
