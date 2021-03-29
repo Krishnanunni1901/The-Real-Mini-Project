@@ -8,9 +8,10 @@
 .column{
    
     text-align: left;
-    padding-right: 76px;
-   
-   
+    padding-right: 40px; 
+}
+.column.assignee {
+    padding-left: 15px;;
 }
 .column.margin{
     padding-left: 20px;
